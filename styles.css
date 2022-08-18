@@ -12,7 +12,7 @@ label{
     color:white;
 }
 .navbar{
-    background-color: #012853;
+    background-color: #012853 !important;
     padding:1px;
 }
 .nav-link{
@@ -25,7 +25,7 @@ label{
 }
 
 .navbar-brand{
-    color:white;
+    color:white !important;
 }
 .navbar-brand:hover{
     color:white !important;
@@ -33,7 +33,7 @@ label{
     
 }
 .navbar-toggler{
-    background-color: white;
+    background-color: white !important;
 }
 .holder{
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
