@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="holder text-center">
+        <nav class="navbar navbar-expand-lg" id="navbar-scroll">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.htm">
+                    <h3 class="myname">Shakir Bhat</h3>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-1 ">
+                            <a class="nav-link active" aria-current="page" href="#container1">About</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#container2">Skills</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#container3">Contact</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="/assets/Shakir shafiq bhat.pdf">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="fs-1 intro mx-2">Hey, I'm Shakir</div>
+        <div class="about mx-2" id="delayed">
+            <p>I am a computer science graduate and a Zealous web developer having more than 1 year of Industry
+                Experience.</p>
+        </div>
+        <div></div>
+    </div>
+    <hr>
+    <div class="container-fluid container2 text-center" id="container2"  >
+        <div class="container d-flex align-items-center">
+            <div class="line ms-3 me-3"></div>
+            <h3 class="ms-auto me-auto my-2">Skills</h3>
+            <div class="line ms-3"></div>
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-4 rescard">
+                    <div class="card">
+                        <img src="assets/js-brands.png" class="cardimg" onclick="progresed1()">
+                        <div class="progress ms-auto me-auto my-4" id="progressed1">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 rescard">
+                    <div class="card">
+                        <img src="assets/angular-brands.svg" class="cardimg" onclick="progresed2()">
+                        <div class="progress ms-auto me-auto my-4" id="progressed2">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 last rescard">
+                    <div class="card card-translated" style="transform: scale(1,0.9);">
+                        <img src="assets/html5-brands.svg" class=" cardimg" onclick="progresed3()">
+                        <div class="progress ms-auto me-auto my-4" id="progressed3">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4 first">
+                <div class="col-md-6 rescard">
+                    <div class="card card2">
+                        <img src="assets/bootstrap-brands.svg" class=" cardimg " style="margin-top:-10px;"
+                            onclick="progresed4()">
+                        <div class="progress ms-auto me-auto my-4" id="progressed4">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 rescard">
+                    <div class="card card2">
+                        <img src="assets/node-brands (1).svg" class=" cardimg  "
+                            style="margin-top:-10px; min-height: 50%;" onclick="progresed5()">
+                        <div class="progress ms-auto me-auto my-4" id="progressed5">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-sm container1" id="container1" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-6 me-5">
+                <div class="d-flex align-items-center">
+                    <h3 class="my-4 aboutme">About Me</h3>
+                    <div class="line ms-3"></div>
+                </div>
+                <p>Hi, I am Shakir, Born and broughtup in Srinagar, Jammu & Kashmir.I did my schooling there and then
+                    moved out to complete my Btech in Computer Science and Engneering.<br><br>Since my college days i
+                    was mostly into Web-Dev, after learning the basics of HTML and CSS I learned resposive web design ,
+                    I
+                    have also done some hand-son on <span>Bootstrap</span><br><br> Since i have knowledge of Node and
+                    Mongo I am also learning some
+                    other Backend technologies like ASP .NET<br>Currently I am working for <span><a
+                            href="deloitte.com">Deloitte</a></span> as a
+                    Developer</p>
+            </div>
+            <div class="col-sm-5 ">
+                <div class="pic-container">
+                    <img src="assets/mypic3.png" class="my-pic" height="320" width="250">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container3 " id="container3" data-aos="fade-up">
+        <div class="row justify-content-end">
+
+            <div class="col-md-5 emailbox">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 addinfo ">
+                        <h2 class = "heads">Get in Touch</h2>
+                        <p class = "fs-5">Drop an email at Bhatshakir16@gmail.com</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 forms">
+                <form>
+                    <div class="d-flex align-items-center">
+                        <h3 class="mb-4 mt-2">Contact</h3>
+                        <div class="line ms-3 mb-4 mt-2"></div>
+                    </div>
+                    <label for="Name" class="form-label my-2">Name</label>
+                    <input type="text" class="form-control" required placeholder="John">
+                    <label for="emaild" class="form-label my-2">Emaid Id</label>
+                    <input type="email" class="form-control" required placeholder="John@abc.com">
+                    <label for="Message" class="form-label my-2">Message</label>
+                    <textarea class="form-control" rows="3"> </textarea>
+                    <button class="btn btn-primary btn-lg my-4" type="submit" onclick="submitform">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class = "footer d-flex">
+        <p>Designed by Shakir Bhat</p>
+        <div class="social">
+           <a href = "m.facebook.com/100004706922431/"><i class="fa-brands fa-facebook fa-sm mx-2"></i></a>
+           <a href = "https://www.linkedin.com/in/bhat-shakir-6abbba153/"> <i class="fa-brands fa-linkedin fa-sm mx-2"></i></a>
+           <a href = "https://twitter.com/Bhatshakir16Kr"> <i class="fa-brands fa-square-twitter fa-sm mx-2"></i></a>
+        </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/2652231d9f.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0,
+            duration: 1000,
+            easing: "ease-in-out",
+            anchorPlacement: 'top-center',
+            mirror: true
+        });
+    </script>
+</body>
+
+
+</html>
