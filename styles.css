@@ -6,6 +6,9 @@ body{
     background: linear-gradient(to bottom, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     
+    color:white !important;
+}
+label{
     color:white;
 }
 .navbar{
@@ -107,7 +110,7 @@ i:hover{
     animation-duration: 2s;
 }
 .progress-bar{
-    background-color: black;
+    background-color: black !important;
     color:white;
     animation-name:fadeleft;
     animation-duration:2s;
@@ -124,7 +127,7 @@ i:hover{
  width:50%;
  margin-left:auto;
  margin-right:auto;
- background-color:#e5dee7;
+ background-color:#e5dee7 !important;
  box-shadow:inset white 3px 0px 20px 0px;
  box-shadow: #857fd3 2px 3px 9px 0px;
  transition-property: transform;
