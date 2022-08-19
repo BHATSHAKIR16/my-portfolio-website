@@ -22,7 +22,7 @@ body{
 }
 
 .navbar-brand{
-    color:white;
+    color:white !important;
 }
 .navbar-brand:hover{
     color:white !important;
@@ -30,7 +30,7 @@ body{
     
 }
 .navbar-toggler{
-    background-color: white;
+    background-color: white !important;
 }
 .holder{
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -107,7 +107,7 @@ i:hover{
     animation-duration: 2s;
 }
 .progress-bar{
-    background-color: black;
+    background-color: black !important;
     color:white;
     animation-name:fadeleft;
     animation-duration:2s;
