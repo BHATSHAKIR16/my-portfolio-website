@@ -5,12 +5,11 @@ const progressed2 = document.getElementById("progressed2")
 const progressed3 = document.getElementById("progressed3")
 const progressed4 = document.getElementById("progressed4")
 const progressed5 = document.getElementById("progressed5")
-
+var flag=false;
 setTimeout(() => {
     delayd.style.display="block";
     container1.style.visibility="visible";
 }, 2000);
-var flag=false;
 function progresed1 () {
     if(flag==true)
     {
